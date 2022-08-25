@@ -6,7 +6,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-/** Logo**/
+.body {
+    background-image: url(/imagenes/gps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero {
+    height: 91.5vh;
+    font-family:'Rubik', sans-serif;
+    font-size: 2rem;
+}
+.textoAdicional {
+    font-family: 'Square Peg', cursive;
+    font-size: 2.5rem;
+}
+.container {
+    font-family:'Rubik', sans-serif;
+}
+.nosotros {
+    background-image: url(../imagenes/gps2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.textoTarjeta {
+    font-family:'Rubik', sans-serif;
+    background-color: rgba(52, 167, 202, 0.747);
+}
+.logo {
+    background-size: 5%;
+}
+
+/** Logo
 .logo {
     display: flex;
     justify-content: right;
@@ -21,7 +51,6 @@
     transition: all 5s;
 }
 .body {
-    /*background-color: rgba(37, 161, 120, 0.603);*/
     background-image: url(/imagenes/gps.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,8 +61,8 @@
     margin-left: 40px;
     margin-top: 10px;
     padding: 0 10px 0 10px;
-}
-/** Barra de Navegacion **/
+}**/
+/** Barra de Navegacion 
 .encabezado {
     display: flex;
     background-color: rgba(20, 51, 51, 0.103);
@@ -72,10 +101,9 @@
     list-style:none;
     display: flex;
     text-decoration: none;
-}
+}**/
 
-/** Imagen Principal **/
-
+/** Imagen Principal 
 .TextoPrincipal {
     font-family: 'Roboto Slab', serif;
     font-size: 40px;
@@ -90,9 +118,10 @@
     display: flex;
     font-family: 'Square Peg', cursive;
     font-size: 40px;
-}
+}**/
 
-/** Nosotros **/
+
+/** Nosotros 
 
 .ImagenNosotros {
     background-image: url(../imagenes/gps2.jpg);
@@ -136,13 +165,13 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: rgba(255, 255, 0, 0.555);
 }
-
+**/
 /** Animacion que quise poner pero me borra la barra de navegacion. Como puedo solucionar esta parte? Gracias
 
 .swing-in-top-fwd{-webkit-animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) both}
 
 @-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}
-*/
+
 .Profesionales {
     display: grid;
     grid-template-columns: 1fr;
@@ -161,8 +190,8 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: rgba(255, 255, 0, 0.555);
 }
-
-/** Tarjeta de Presentación **/
+**/
+/** Tarjeta de Presentación 
 .TextoPresentacion {
     display: flex;
 }
@@ -174,9 +203,9 @@
 .TextoTarjeta {
     margin-top: 30px;
     font-family: 'Roboto Slab', serif;
-}
+}**/
 
-/** Galería de Imágenes **/
+/** Galería de Imágenes
 
 .ImagenesGaleria {
     display: flex;
@@ -188,8 +217,8 @@
     display: flex;
     font-family: 'Roboto Slab', serif;
 }
-
-/** Servicios **/
+ **/
+/** Servicios 
 
 .ImagenesServicios {
     background-color:rgba(93, 218, 176, 0.322);
@@ -225,8 +254,8 @@
     height: 500px;
     background-repeat: no-repeat;
 }
-
-/** Contacto **/
+**/
+/** Contacto 
 
 .Contacto {
     background-image: url(../imagenes/agrimensura.jpg);
@@ -252,9 +281,8 @@
     border-radius: 30px;
     width: 500px;
     margin: 50px 0px 50px 100px;
-}
-
-/** GRID **/
+}**/
+/** GRID 
 
 .grid {
     padding: 6 rem;
@@ -309,8 +337,8 @@
     transition: all .5s;
     background-color: rgba(127, 255, 212, 0.404);
 }
-
-/** Grids para +768px**/
+**/
+/** Grids para +768px
 
 @media screen and (max-width:768px){
     .grid {
@@ -407,8 +435,8 @@
         background-size: cover;
     }
 }
-
-/** Grids para +480px**/
+**/
+/** Grids para +480px
 
 @media screen and (max-width:480px){
     .grid {
@@ -483,4 +511,4 @@
     .body {
         background-size: 1500px;
     }
-}
+}**/
