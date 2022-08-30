@@ -12,7 +12,7 @@
     background-size: cover;
 }
 .hero {
-    height: 91.5vh;
+    height: 65.5vh;
     font-family:'Rubik', sans-serif;
     font-size: 2rem;
 }
@@ -28,6 +28,12 @@
     background-size:cover;
     background-repeat: no-repeat;
 }
+.empresa {
+    width: 50vh;
+}
+.foto {
+    width: 40vh;
+}
 .textoTarjeta {
     font-family:'Rubik', sans-serif;
     background-color: rgba(52, 167, 202, 0.747);
@@ -35,7 +41,13 @@
 .logo {
     background-size: 5%;
 }
-
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: rgb(24, 24, 24) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.card {
+    transition: all .5s;
+}
 /** Logo
 .logo {
     display: flex;
