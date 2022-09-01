@@ -1,1 +1,34 @@
-/*# sourceMappingURL=estilo.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url(/imagenes/gps.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body .hero {
+  height: 65.5vh;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+}
+.body .textoAdicional {
+  font-family: "Square Peg", cursive;
+  font-size: 2.5rem;
+}
+
+.container {
+  font-family: "Rubik", sans-serif;
+}
+.container .card:hover {
+  transform: scale(1.08);
+  box-shadow: rgb(24, 24, 24) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.container .card {
+  transition: all 0.5s;
+}

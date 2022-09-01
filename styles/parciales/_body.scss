@@ -1,0 +1,15 @@
+.body {
+    background-image: url(/imagenes/gps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero {
+        height: 65.5vh;
+        font-family:'Rubik', sans-serif;
+        font-size: 2rem;
+    }
+    .textoAdicional {
+        font-family: 'Square Peg', cursive;
+        font-size: 2.5rem;
+    }
+}
