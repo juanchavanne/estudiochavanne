@@ -1,10 +1,19 @@
 .container {
     font-family:'Rubik', sans-serif;
+    -webkit-animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both;
+    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) both;
+    @for $card from 1 through 3 {
+        .card:nth-child(#{$card}) {
+            animation-delay: $card*1s;
+        }
+    } 
     .card:hover {
         transform: scale(1.08);
         box-shadow: rgb(24, 24, 24) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    }
-    .card {
         transition: all .5s;
     }
 }
+
+
+
+@-webkit-keyframes puff-in-center{0%{-webkit-transform:scale(2);transform:scale(2);-webkit-filter:blur(4px);filter:blur(4px);opacity:0}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes puff-in-center{0%{-webkit-transform:scale(2);transform:scale(2);-webkit-filter:blur(4px);filter:blur(4px);opacity:0}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-filter:blur(0);filter:blur(0);opacity:1}}

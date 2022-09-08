@@ -24,15 +24,51 @@
 
 .container {
   font-family: "Rubik", sans-serif;
+  -webkit-animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+.container .card:nth-child(1) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.container .card:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.container .card:nth-child(3) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 .container .card:hover {
   transform: scale(1.08);
   box-shadow: rgb(24, 24, 24) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-}
-.container .card {
   transition: all 0.5s;
 }
 
+@-webkit-keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
 .nosotros {
   background-image: url(../imagenes/gps2.jpg);
   background-size: cover;
@@ -50,4 +86,4 @@
 .textoTarjeta {
   font-family: "Rubik", sans-serif;
   background-color: rgba(52, 167, 202, 0.747);
-}
+}/*# sourceMappingURL=estilo.css.map */
