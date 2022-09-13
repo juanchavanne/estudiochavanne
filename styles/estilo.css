@@ -69,8 +69,8 @@
     opacity: 1;
   }
 }
-.nosotros {
-  background-image: url(../imagenes/gps2.jpg);
+.nosotross {
+  background-image: url(/imagenes/gps2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -86,4 +86,11 @@
 .textoTarjeta {
   font-family: "Rubik", sans-serif;
   background-color: rgba(52, 167, 202, 0.747);
-}/*# sourceMappingURL=estilo.css.map */
+}
+.ImagenesServicios {
+  padding-left: 8rem;
+  background-color: rgba(129, 192, 171, 0.486);
+}
+.contacto {
+  background-color:rgba(129, 192, 171, 0.486);
+}
